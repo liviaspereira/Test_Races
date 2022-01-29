@@ -1,0 +1,28 @@
+CREATE TABLE races (
+    vendor_id varchar,
+    pickup_datetime timestamp,
+    dropoff_datetime timestamp,
+    passenger_count	int,
+    trip_distance float,
+    rate_code varchar,
+    store_and_fwd_flag varchar,
+    payment_type varchar,
+    fare_amount	float,
+    extra float,
+    mta_tax float,
+    tip_amount float,
+    tolls_amount float,
+    imp_surcharge float,
+    total_amount float,
+    pickup_location_id varchar,
+    dropoff_location_id	varchar
+
+);
+
+
+
+
+
+
+
+
